@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import "@/components/ui/MagicButton/MagicButton.css";
 import { motion } from "framer-motion";
 

@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import React from "react";
 import MagicButton from "@/components/ui/MagicButton/MagicButton";
 import { socialMedia } from "@/data";
