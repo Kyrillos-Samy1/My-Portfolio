@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <>
       <footer className="md:w-full">
-        <div className="flex flex-col items-center w-full relative z-50 ">
+        <div className="flex flex-col items-center w-full relative z-50">
           <p className="capitalize text-white-200 xs:w-96 text-center mt-10 xs:px-7 md:px-0">
             Reach out to me today and let&#39;s discuss how I can help you
             achieve your goals.
