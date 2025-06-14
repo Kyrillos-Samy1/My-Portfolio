@@ -7,13 +7,13 @@ import { motion } from "framer-motion";
 import ArrowToTop from "./ui/ArrowToTop";
 import { FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <>
       <footer className="md:w-full">
-        <div className="flex flex-col items-center w-full relative z-50 md:overflow-clip">
+        <div className="flex flex-col items-center w-full relative z-50 ">
           <p className="capitalize text-white-200 xs:w-96 text-center mt-10 xs:px-7 md:px-0">
             Reach out to me today and let&#39;s discuss how I can help you
             achieve your goals.
@@ -30,7 +30,7 @@ export default function Footer() {
             />
           </Link>
 
-          <div className="sm:relative mb-6 flex mt-16 sm:flex-row xs:flex-col-reverse justify-around  xs:gap-[20px] sm:gap-[132px] md:gap-[340px] lg:gap-[550px] xl:gap-[730px] items-center">
+          <div className="sm:relative mb-6 flex mt-16 sm:flex-row xs:flex-col-reverse justify-around  xs:gap-[20px] sm:gap-[132px] md:gap-[310px] lg:gap-[550px] xl:gap-[730px] items-center">
             <p className="md:text-base xxs:text-sm md:font-normal xxs:font-light xs:mt-5">
               {new Date().getFullYear()} &copy;{" "}
               <Link

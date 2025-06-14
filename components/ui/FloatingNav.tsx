@@ -69,7 +69,7 @@ export const FloatingNav = ({
           <span className="block sm:hidden text-sm">
             <FaFolderOpen />
           </span>
-          <span className="block xs:text-[10px] tracking-wider">Projects</span>
+          <span className="block xs:text-[10px] md:text-sm tracking-wider">Projects</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
         </Link>
 
