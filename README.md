@@ -6,7 +6,7 @@
 
 ## 🚀 Live Preview
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Portfolio-2E8B57?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-mu-three-16.vercel.app/)  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-My-Portfolio-2E8B57?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-mu-three-16.vercel.app/)  
 
 ---
 
