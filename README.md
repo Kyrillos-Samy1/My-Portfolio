@@ -60,8 +60,10 @@
 
 ### 🎯 Hero
 
-- Name, title, short description  
-- CTA buttons (Contact, Projects, Resume)  
+- Bold headline with name & title  
+- Typing effect 
+- Profile image with glowing border  
+- CTA: Download CV + social icons 
 
 ### 👨‍💼 About Me
 
