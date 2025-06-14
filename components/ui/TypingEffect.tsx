@@ -57,7 +57,7 @@ export default function TypingEffect() {
           <h2 className="text-white">
             <TextGenerateEffect
               words="I&#39;m"
-              className=" xs:text-[19.8px] sm:text-[28.5px] md:text-[33px] lg:text-[38.5px] text-white-100"
+              className=" xs:text-[19.7px] sm:text-[28.5px] md:text-[33px] lg:text-[38.5px] text-white-100"
             />
           </h2>
 
@@ -66,7 +66,7 @@ export default function TypingEffect() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="font-semibold leading-10 xs:ml-[8px] xs:mt-4 inline-block text-white-100 tracking-wider xs:text-[19.8px] sm:text-[28.5px] md:text-[33px] lg:text-[38.5px]"
+            className="font-semibold leading-10 xs:ml-[8px] xs:mt-4 inline-block text-white-100 tracking-wider xs:text-[19.7px] sm:text-[28.5px] md:text-[33px] lg:text-[38.5px]"
             style={{ minWidth: `${maxWordLength + 1}ch` }}>
             {word}
             <motion.span
