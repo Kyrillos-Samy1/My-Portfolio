@@ -122,7 +122,7 @@ git clone https://github.com/Kyrillos-Samy1/My-Portfolio.git
 2. Navigate into the project:
 
 ```bash
-cd Portfolio
+cd My Portfolio
 ```
 
 3. Install dependencies:
