@@ -82,7 +82,7 @@
 ### 🗣️ Testimonials
 
 - Sliding quotes from real people  
-- Styled using `ui.aceternity` testimonial component  
+- Styled using `Aceternity UI` testimonial component  
 
 ### 📬 Contact
 
