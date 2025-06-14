@@ -6,7 +6,6 @@ import {
 } from "react-icons/fa"; 
 
 import { TbFileDescription } from "react-icons/tb";
-// import { VscAccount  } from "react-icons/vsc";
 
 export const navItems = [
   { name: "About", link: "#about-me", icon: React.createElement(TbFileDescription ) }, 

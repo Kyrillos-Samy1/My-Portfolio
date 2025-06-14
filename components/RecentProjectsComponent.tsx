@@ -1,6 +1,7 @@
 import { projects } from "@/data/index";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function RecentProjectsComponent() {
   return (
@@ -13,11 +14,13 @@ export default function RecentProjectsComponent() {
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center xs:w-[300px] sm:w-[475px] md:w-[570px] lg:w-[600px] xl:w-[460px] 2xl:w-[580px]  overflow-hidden xs:h-[40vh] md:h-[35vh] lg:h-[50vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image src="/bg.png" alt="bg-img" width={400} height={300} />
                 </div>
-                <img
+                <Image
                   src={img}
                   alt={title}
+                  width={400}
+                  height={300}
                   className="z-10 absolute -bottom-10 rotate-3 w-fit object-contain h-[100%] rounded-xl"
                 />
               </div>
@@ -37,7 +40,13 @@ export default function RecentProjectsComponent() {
                       key={icon}
                       className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}>
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image
+                        src={icon}
+                        alt={icon}
+                        width={400}
+                        height={300}
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>

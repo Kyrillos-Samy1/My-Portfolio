@@ -10,6 +10,8 @@ import RecentProjectsComponent from "@/components/RecentProjectsComponent";
 import Testimonials from "@/components/Testimonials";
 import Experiance from "@/components/Experiance";
 import Footer from "@/components/Footer";
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
@@ -33,11 +35,13 @@ export default function Home() {
         id="about-me"
         className="relative bg-black-100 border-t-2 border-t-gray-500 overflow-hidden mx-auto px-[22px] sm:px-10 xs:py-12 md:py-16 md:px-5 flex justify-center items-center flex-col">
         <div className="select-none pointer-events-none xl:w-[97%] lg:w-[108%] md:w-[130%] xs:w-[240%]  absolute xs:-left-44 sm:-left-96 xs:right-0 md:-left-20 lg:-left-0  xs:-top-[250px] md:-top-[320px] lg:-top-[530px] xl:-top-[685px] min-h-96">
-          <img
+          <Image 
             src="/footer-grid.svg"
             alt="grid"
+            width={400} height={300}
             className="w-full h-full opacity-50"
             draggable="false"
+            unoptimized={false}
           />
         </div>
         <h2 className="shadow-button z-50 bg-black-100 tracking-widest border-b-2 xs:text-xl md:text-3xl lg:text-4xl xs:mb-10 md:mb-12 p-2 pb-1 rounded-lg">

@@ -4,6 +4,8 @@ import { socialMedia } from "@/data";
 import { motion } from "framer-motion";
 import ArrowToTop from "./ui/ArrowToTop";
 import { FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -15,7 +17,7 @@ export default function Footer() {
             achieve your goals.
           </p>
 
-          <a
+          <Link
             href="mailto:kyrillossamy@outlook.com"
             title="Send an email to kyrillossamy@outlook.com"
             className="">
@@ -24,19 +26,19 @@ export default function Footer() {
               classNameIcon="ml-2"
               icon={<FaEnvelope size={15} />}
             />
-          </a>
+          </Link>
 
           <div className="sm:relative mb-6 flex mt-16 sm:flex-row xs:flex-col-reverse justify-around  xs:gap-[20px] sm:gap-[132px] md:gap-[340px] lg:gap-[550px] xl:gap-[730px] items-center">
             <p className="md:text-base xxs:text-sm md:font-normal xxs:font-light xs:mt-5">
               {new Date().getFullYear()} &copy;{" "}
-              <a
+              <Link
                 href="https://www.linkedin.com/in/kyrillos-samy-38b110222"
                 className="underline w-fit underline-offset-4"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Visit Kyrillos Samy's LinkedIn profile">
                 Kyrillos Samy
-              </a>
+              </Link>
             </p>
 
             <ArrowToTop />
@@ -51,7 +53,7 @@ export default function Footer() {
                   className="shadow-button w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}>
-                  <img
+                  <Image
                     src={img}
                     alt="Social Media Icon"
                     width={20}
