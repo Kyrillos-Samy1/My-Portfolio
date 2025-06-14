@@ -28,7 +28,7 @@ export const TextGenerateEffect = ({
         delay: stagger(0.2)
       }
     );
-  }, []);
+  }, [animate, duration, filter]);
 
   const renderWords = () => {
     return (
@@ -55,7 +55,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="">
-        <div className="dark:text-white text-black text-2xl leading-snug tracking-wide xxs:-mt-2 xs:mt-4">
+        <div className="dark:text-white text-black text-2xl leading-snug tracking-wide xs:mt-4">
           {renderWords()}
         </div>
       </div>
