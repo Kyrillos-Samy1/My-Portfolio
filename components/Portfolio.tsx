@@ -13,7 +13,9 @@ import Image from 'next/image';
 
 function PortfolioComponent() {
   const handleDownload = () => {
+    if (typeof window !== "undefined") {
     window.open("https://cv.pdf", "_blank");
+    }
   };
 
   return (

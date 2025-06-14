@@ -1,13 +1,12 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import {
   motion,
   useAnimationFrame,
   useMotionTemplate,
   useMotionValue,
-  useTransform
+  useTransform,
 } from "framer-motion";
-import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
 interface ButtonProps {
@@ -31,45 +30,45 @@ export function Button({
   className,
   ...otherProps
 }: ButtonProps) {
-  return (
-    React.createElement(
-      Component as React.ElementType,
-      {
-        className: cn(
-          "relative md:col-span-2 overflow-hidden bg-transparent p-[1px] text-xl",
-          containerClassName
-        ),
-        style: {
-          borderRadius: borderRadius
-        },
-        ...otherProps
+  return React.createElement(
+    Component as React.ElementType,
+    {
+      className: cn(
+        "relative md:col-span-2 overflow-hidden bg-transparent p-[1px] text-xl",
+        containerClassName
+      ),
+      style: {
+        borderRadius: borderRadius,
       },
-      <>
-        <div
-          className="absolute inset-0"
-          style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}>
-          <MovingBorder duration={duration} rx="30%" ry="30%">
-            <div
-              className={cn(
-                "h-20 w-20 bg-[radial-gradient(#0ea5e9_40%,transparent_60%)] opacity-[0.8]",
-                borderClassName
-              )}
-            />
-          </MovingBorder>
-        </div>
+      ...otherProps,
+    },
+    <>
+      <div
+        className="absolute inset-0"
+        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
+      >
+        <MovingBorder duration={duration} rx="30%" ry="30%">
+          <div
+            className={cn(
+              "h-20 w-20 bg-[radial-gradient(#0ea5e9_40%,transparent_60%)] opacity-[0.8]",
+              borderClassName
+            )}
+          />
+        </MovingBorder>
+      </div>
 
-        <div
-          className={cn(
-            "relative flex h-full w-full items-center justify-center border border-slate-800 bg-slate-900/[0.8] text-sm text-white antialiased backdrop-blur-xl",
-            className
-          )}
-          style={{
-            borderRadius: `calc(${borderRadius} * 0.96)`
-          }}>
-          {children}
-        </div>
-      </>
-    )
+      <div
+        className={cn(
+          "relative flex h-full w-full items-center justify-center border border-slate-800 bg-slate-900/[0.8] text-sm text-white antialiased backdrop-blur-xl",
+          className
+        )}
+        style={{
+          borderRadius: `calc(${borderRadius} * 0.96)`,
+        }}
+      >
+        {children}
+      </div>
+    </>
   );
 }
 
@@ -90,25 +89,24 @@ export const MovingBorder = ({
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
-    if (!pathRef.current) return;
+    if (typeof window === "undefined" || !pathRef.current) return;
 
-    if (typeof window === "undefined") return;
-  
-    const length = pathRef.current?.getTotalLength();
-    if (length) {
-      const pxPerMillisecond = length / duration;
-      progress.set((time * pxPerMillisecond) % length);
-    }
+    const length = pathRef.current.getTotalLength();
+    const pxPerMillisecond = length / duration;
+    progress.set((time * pxPerMillisecond) % length);
   });
-  
 
-  const x = useTransform(progress, (val) =>
-    typeof window !== "undefined" ? pathRef.current?.getPointAtLength(val).x : 0
-  );
-  const y = useTransform(progress, (val) =>
-    typeof window !== "undefined" ? pathRef.current?.getPointAtLength(val).y : 0
-  );
-  
+  const x = useTransform(progress, (val) => {
+    if (typeof window === "undefined" || !pathRef.current) return 0;
+    const point = pathRef.current.getPointAtLength(val);
+    return point?.x ?? 0;
+  });
+
+  const y = useTransform(progress, (val) => {
+    if (typeof window === "undefined" || !pathRef.current) return 0;
+    const point = pathRef.current.getPointAtLength(val);
+    return point?.y ?? 0;
+  });
 
   const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;
 
@@ -120,7 +118,8 @@ export const MovingBorder = ({
         className="absolute h-full w-full"
         width="100%"
         height="100%"
-        {...otherProps}>
+        {...otherProps}
+      >
         <rect
           fill="none"
           width="100%"
@@ -136,8 +135,9 @@ export const MovingBorder = ({
           top: 0,
           left: 0,
           display: "inline-block",
-          transform
-        }}>
+          transform,
+        }}
+      >
         {children}
       </motion.div>
     </>
