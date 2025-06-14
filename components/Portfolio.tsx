@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 import MagicButton from "@/components/ui/MagicButton/MagicButton";
 import { MdOutlineCloudDownload } from "react-icons/md";
 import { socialMedia } from "@/data";
-import Image from 'next/image';
+import Image from "next/image";
 
 function PortfolioComponent() {
   const handleDownload = () => {
     if (typeof window !== "undefined") {
-    window.open("https://cv.pdf", "_blank");
+      window.open("https://cv.pdf", "_blank");
     }
   };
 
