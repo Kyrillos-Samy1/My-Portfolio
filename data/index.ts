@@ -29,7 +29,7 @@ export const projects = [
     title: "Gymo: Your Interactive Guide to Smarter, Stronger Workouts",
     des: "Gymo is a dynamic fitness web application that allows users to explore a wide range of exercises through animated GIFs, filter them by body part, and search in real-time. Each exercise has a detailed view with equipment info, muscle targets, related body parts, YouTube tutorials, and similar workouts using the same machine.",
     img: "https://res.cloudinary.com/dkby0jbe3/image/upload/v1749851879/yuw17qvtk2ckcntkrpd9.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "https://res.cloudinary.com/dkby0jbe3/image/upload/v1749896916/hfq7ntwvcqbbwkzbp4pb.svg", "/fm.svg"],
     link: "https://gymo-sigma.vercel.app/",
   },
   // {
