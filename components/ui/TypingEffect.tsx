@@ -43,7 +43,7 @@ export default function TypingEffect() {
       <h1 className="text-white xs:ml-[-14px] sm:ml-[53px] md:-ml-[8px] lg:ml-[-37px]">
         <TextGenerateEffect
           words="Explore My Portfolio!"
-          className=" xs:text-[30px] sm:text-[43px] md:text-[45px] lg:text-[55px] tracking-wider leading-10"
+          className=" xs:text-[30px] sm:text-[43px] md:text-[43px] lg:text-[55px] tracking-wider leading-10"
         />
       </h1>
 
