@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #0d1017;
+}
+
+.shadow-box {
+    box-shadow: 
+        0px 0px 12px 6px rgba(0, 162, 255, 0.5),
+        0px 0px 35px 10px rgba(0, 162, 255, 0.4),
+        0px 0px 45px 14px rgba(0, 162, 255, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    caret-color: transparent;
+}
+
+.shadow-box:hover {
+    box-shadow: 
+        0px 0px 25px 8px rgba(0, 162, 255, 0.7),  
+        0px 0px 45px 15px rgba(0, 162, 255, 0.4),
+        0px 0px 70px 20px rgba(0, 162, 255, 0.3);
+        cursor: pointer;
+    caret: none;
+}
+
+.box2 {
+    width: 325px;
+    height: 325px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}

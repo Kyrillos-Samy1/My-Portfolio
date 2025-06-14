@@ -1,0 +1,11 @@
+.tech-span {
+    fontSize: "clamp(12px, 2vw, 18px)"; 
+    maxWidth: "100%"; 
+    minWidth: "80px"; 
+    overflow: "hidden";
+    whiteSpace: "nowrap"; 
+    textAlign: "center";
+    textOverflow: "ellipsis";
+    padding: "0.5rem 1rem";
+    borderRadius: "0.5rem";
+}
