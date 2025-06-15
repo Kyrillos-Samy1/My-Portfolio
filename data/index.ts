@@ -50,37 +50,42 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+    {
+      quote:
+        "Kyrillos’s mastery of React and component design helped us scale our UI faster than ever. Clean code, reusable logic, smart state management — the guy’s got it all. I learned a ton just by reviewing his pull requests. His approach to building UI is not just functional, it's strategic.",
+      name: "Andrew Moheb",
+      title: "Junior React.js Developer",
+      img: "/Testimonials Images/Andrew.png"
+    },
+    {
+      quote:
+        "I saw firsthand how Kyrillos handled complex .NET backends while integrating seamlessly with modern Next.js frontends. His ability to bridge both worlds — backend logic and frontend experience — is next-level. He doesn't just build features; he engineers systems that last.",
+      name: "Fady Nader",
+      title: "Junior .NET Developer",
+      img: "/Testimonials Images/Fady.png"
+    },
+    {
+      quote:
+        "Even though my core focus is security, Kyrillos’s attention to secure data flows in his Next.js projects really stood out. From API protection to SSR edge cases, he understands the security layer like someone who's worked in the field. It’s rare to see devs this proactive about best practices.",
+      name: "David Medhat",
+      title: "Next.js Developer",
+      img: "/Testimonials Images/David.png"
+    },
+    {
+      quote:
+        "When we collaborated on a complex React dashboard, Kyrillos brought structure and clarity from day one. Modular components, custom hooks, optimized routing — all wrapped in a blazing-fast Next.js app. He’s the kind of developer you want leading your frontend stack.",
+      name: "Tony Saad",
+      title: "React.js Developer",
+      img: "/Testimonials Images/Tony.png"
+    },
+    {
+      quote:
+        "I worked with Kyrillos on our NTI graduation project. He brought great structure and vision to the design process. Always focused, creative, and cooperative — a real team player who made a big impact on the final product and truly elevated our team's overall workflow and output.",
+      name: "Yasser Alderwy",
+      title: "React.js Developer",
+      img: "/Testimonials Images/Yasser.png"
+    }
+  ];  
 
 export const companies = [
   {

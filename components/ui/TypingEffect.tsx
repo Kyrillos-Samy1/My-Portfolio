@@ -5,11 +5,12 @@ import { motion } from "framer-motion";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 
 const words = [
-  "a Fresh Graduate",
+  "a Junior Level",
   "a React.js Developer",
   "a Problem Solver",
   "a Success Chaser"
 ];
+
 export default function TypingEffect() {
   const [index, setIndex] = useState(0);
   const [word, setWord] = useState("");

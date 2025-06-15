@@ -10,8 +10,7 @@ import RecentProjectsComponent from "@/components/RecentProjectsComponent";
 import Testimonials from "@/components/Testimonials";
 import Experiance from "@/components/Experiance";
 import Footer from "@/components/Footer";
-import Image from 'next/image';
-
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -73,7 +72,7 @@ export default function Home() {
 
       <section
         id="testimonials"
-        className=" bg-black-100 border-t-2 border-t-gray-500 overflow-hidden mx-auto sm:px-10 md:px-5 py-16 md:pb-[54px] xs:pb-[50px] flex justify-center items-center flex-col">
+        className=" bg-black-100 border-t-2 border-t-gray-500 overflow-hidden mx-auto sm:px-10 md:px-5 py-16 md:pb-[30px] xs:pb-[50px] flex justify-center items-center flex-col">
         <h2 className="shadow-button z-50  bg-transparent tracking-widest border-b-2 xs:text-xl md:text-3xl lg:text-4xl xs:mb-10 md:mb-4  p-2 pb-1 rounded-lg text-center">
           Words from <br />{" "}
           <span className="text-sky-400">Industry Colleagues</span>
