@@ -35,10 +35,11 @@ export default function Home() {
         id="about-me"
         className="relative bg-black-100 border-t-2 border-t-gray-500 overflow-hidden mx-auto px-[22px] sm:px-10 xs:py-12 md:py-16 md:px-5 flex justify-center items-center flex-col">
         <div className="select-none pointer-events-none xl:w-[97%] lg:w-[108%] md:w-[130%] xs:w-[240%]  absolute xs:-left-44 sm:-left-96 xs:right-0 md:-left-20 lg:-left-0  xs:-top-[250px] md:-top-[320px] lg:-top-[530px] xl:-top-[685px] min-h-96">
-          <Image 
+          <Image
             src="/footer-grid.svg"
             alt="grid"
-            width={400} height={300}
+            width={400}
+            height={300}
             className="w-full h-full opacity-50"
             draggable="false"
             unoptimized={false}
@@ -74,8 +75,8 @@ export default function Home() {
         id="testimonials"
         className=" bg-black-100 border-t-2 border-t-gray-500 overflow-hidden mx-auto sm:px-10 md:px-5 py-16 md:pb-[54px] xs:pb-[50px] flex justify-center items-center flex-col">
         <h2 className="shadow-button z-50  bg-transparent tracking-widest border-b-2 xs:text-xl md:text-3xl lg:text-4xl xs:mb-10 md:mb-4  p-2 pb-1 rounded-lg text-center">
-          Kind Words From <br />{" "}
-          <span className="text-sky-400">Satisfied Clients</span>
+          Words from <br />{" "}
+          <span className="text-sky-400">Industry Colleagues</span>
         </h2>
 
         <Testimonials />

@@ -118,29 +118,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Designer Intern",
+    desc: "Built responsive front-end pages using HTML5, CSS3, Bootstrap, and JavaScript in a hands-on training project.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "React.js Developer Track – Self-Paced Study",
+    desc: "Completed hands-on React & TypeScript training, building responsive UIs with modern libraries and Git version control.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Developer – Self Employed",
+    desc: "Delivered front-end solutions using React stack for freelance clients, handling Git, portfolios, and end-to-end client communication.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Graduation Project Team Lead",
+    desc: "Led a team of 4 to build a full-stack restaurant table booking system using PHP and React.js, delivering a fully functional MVP with real-world workflows.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -149,26 +149,28 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-    link: "https://github.com",
-    title: "GitHub.com"
-  },
-  {
-    id: 2,
-    img: "/x.png",
-    link: "https://x.com",
-    title: "x.com"
-  },
-  {
-    id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/kyrillos-samy-38b110222",
     title: "LinkedIn.com"
   },
-    {
-    id: 4,
+  {
+    id: 2,
+    img: "/git.svg",
+    link: "https://github.com/Kyrillos-Samy1",
+    title: "GitHub.com"
+  },
+  {
+    id: 3,
     img: "/whatsapp.png",
-    link: "https://wa.me/+20-01271470997",
+    link: "https://wa.me/201271470997",
     title: "WhatsApp.com"
   },
+  {
+    id: 4,
+    img: "/facebook.png",
+    link: "https://www.facebook.com/kero.samy.104",
+    title: "FaceBook.com"
+  },
+  
+    
 ];

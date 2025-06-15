@@ -14,7 +14,10 @@ import Image from "next/image";
 function PortfolioComponent() {
   const handleDownload = () => {
     if (typeof window !== "undefined") {
-      window.open("https://cv.pdf", "_blank");
+      window.open(
+        "https://drive.google.com/file/d/11tVNvY-JvB9DxoQPvaU5h4R4xiOBvj17/view?usp=sharing",
+        "_blank"
+      );
     }
   };
 
@@ -56,13 +59,12 @@ function PortfolioComponent() {
                       title={title}
                       target="_blank"
                       className="shadow-button xxs:mb-9 md:mb-0 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-full"
-                      initial={{ y: 0, opacity: 0 }}
-                      animate={{ y: [0, 10], opacity: 1 }}
+                      initial={{ y: 0, opacity: 0, scale: 0.7 }}
+                      animate={{ y: [0, 10], opacity: 1,  scale: 1 }}
                       whileHover={{ scale: 1.1 }}
                       transition={{
                         delay: id * 0.5,
                         duration: 0.8,
-                        scale: 0.3,
                         y: {
                           repeat: Infinity,
                           repeatType: "reverse",
