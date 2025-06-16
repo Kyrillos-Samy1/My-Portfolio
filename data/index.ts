@@ -50,36 +50,36 @@ export const projects = [
 ];
 
 export const testimonials = [
-    {
-      "quote": "Working with Kyrillos felt like partnering with a frontend architect. He doesn’t just write code — he builds systems. From reusable components to performance tuning, every line he commits has purpose. Our UI became faster, cleaner, and easier to maintain because of him.",
-      "name": "Andrew Moheb",
-      "title": "Junior React.js Developer",
-      "img": "/Testimonials Images/Andrew.png"
-    },
-    {
-      "quote": "Kyrillos bridges the gap between backend and frontend like few can. His ability to take complex APIs and integrate them into intuitive React interfaces made our workflow seamless. He’s got a solid understanding of both logic and user experience — a rare combo.",
-      "name": "Fady Nader",
-      "title": "Junior .NET Developer",
-      "img": "/Testimonials Images/Fady.png"
-    },
-    {
-      "quote": "Kyrillos treats security as a first-class citizen in every React/Next.js project he touches. Whether it’s handling sensitive data or preventing SSR leaks, he’s always thinking a step ahead. His mindset shows that true frontend devs must care about backend risks too.",
-      "name": "David Medhat",
-      "title": "Next.js Developer",
-      "img": "/Testimonials Images/David.png"
-    },
-    {
-      "quote": "Every time I review Kyrillos’s code, I come out smarter. His use of custom hooks, dynamic routing, and code splitting techniques made our dashboard fly. He balances performance with readability like a pro — one of the best frontend engineers I’ve worked with.",
-      "name": "Tony Saad",
-      "title": "React.js Developer",
-      "img": "/Testimonials Images/Tony.png"
-    },
-    {
-      "quote": "Kyrillos brought clarity and leadership to our NTI project from day one. He didn’t just write code — he guided discussions, built consensus, and executed with consistency. He was the glue that held our team together, both technically and emotionally.",
-      "name": "Yasser Alderwy",
-      "title": "React.js Developer",
-      "img": "/Testimonials Images/Yasser.png"
-    }  
+  {
+    "quote": "Working with Kyrillos felt like partnering with a frontend architect. He doesn’t just write code — he builds systems. From reusable components to performance tuning, every line he commits has purpose. Our UI became faster, cleaner, and easier to maintain because of him. Respectfully, one of the best I've seen.",
+    "name": "Andrew Moheb",
+    "title": "Junior React.js Developer",
+    "img": "/Testimonials Images/Andrew.png"
+  },
+  {
+    "quote": "Kyrillos bridges the gap between backend and frontend like few can. His ability to take complex APIs and integrate them into intuitive React interfaces made our workflow seamless. He’s got a solid understanding of both logic and user experience — a rare combo. Respectfully, he's a game changer.",
+    "name": "Fady Nader",
+    "title": "Junior .NET Developer",
+    "img": "/Testimonials Images/Fady.png"
+  },
+  {
+    "quote": "As someone who was still learning Next.js, working with Kyrillos made all the difference. He explained things clearly, showed me how to structure pages, handle SSR, and protect APIs — all without ever making me feel lost. His patience and clarity turned my confusion into confidence.",
+    "name": "David Medhat",
+    "title": "Next.js Developer",
+    "img": "/Testimonials Images/David.png"
+  },
+  {
+    "quote": "Every time I review Kyrillos’s code, I come out smarter. His use of custom hooks, dynamic routing, and code splitting techniques made our dashboard fly. He balances performance with readability like a pro — one of the best frontend engineers I’ve worked with. Respectfully, a true craftsman.",
+    "name": "Tony Saad",
+    "title": "React.js Developer",
+    "img": "/Testimonials Images/Tony.png"
+  },
+  {
+    "quote": "Kyrillos brought clarity and leadership to our NTI project from day one. He didn’t just write code — he guided discussions, built consensus, and executed with consistency. He was the glue that held our team together, both technically and emotionally. Respectfully, he's a natural leader.",
+    "name": "Yasser Alderwy",
+    "title": "React.js Developer",
+    "img": "/Testimonials Images/Yasser.png"
+  }
   ];  
 
 export const companies = [
