@@ -59,7 +59,7 @@ export const testimonials = [
     },
     {
       quote:
-        "I saw firsthand how Kyrillos handled complex .NET backends while integrating seamlessly with modern Next.js frontends. His ability to bridge both worlds — backend logic and frontend experience — is next-level. He doesn't just build features; he engineers systems that last.",
+        "I saw firsthand how Kyrillos handled complex .NET backends while integrating seamlessly with modern React.js frontends. His ability to bridge both worlds — backend logic and frontend experience — is next-level. He doesn't just build features; he engineers systems that last.",
       name: "Fady Nader",
       title: "Junior .NET Developer",
       img: "/Testimonials Images/Fady.png"
@@ -73,7 +73,7 @@ export const testimonials = [
     },
     {
       quote:
-        "When we collaborated on a complex React dashboard, Kyrillos brought structure and clarity from day one. Modular components, custom hooks, optimized routing — all wrapped in a blazing-fast Next.js app. He’s the kind of developer you want leading your frontend stack.",
+        "When we collaborated on a complex React dashboard, Kyrillos brought structure and clarity from day one. Modular components, custom hooks, optimized routing — all wrapped in a blazing-fast React.js app. He’s the kind of developer you want leading your frontend stack.",
       name: "Tony Saad",
       title: "React.js Developer",
       img: "/Testimonials Images/Tony.png"
