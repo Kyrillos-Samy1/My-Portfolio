@@ -51,40 +51,35 @@ export const projects = [
 
 export const testimonials = [
     {
-      quote:
-        "Kyrillos’s mastery of React and component design helped us scale our UI faster than ever. Clean code, reusable logic, smart state management — the guy’s got it all. I learned a ton just by reviewing his pull requests. His approach to building UI is not just functional, it's strategic.",
-      name: "Andrew Moheb",
-      title: "Junior React.js Developer",
-      img: "/Testimonials Images/Andrew.png"
+      "quote": "Working with Kyrillos felt like partnering with a frontend architect. He doesn’t just write code — he builds systems. From reusable components to performance tuning, every line he commits has purpose. Our UI became faster, cleaner, and easier to maintain because of him.",
+      "name": "Andrew Moheb",
+      "title": "Junior React.js Developer",
+      "img": "/Testimonials Images/Andrew.png"
     },
     {
-      quote:
-        "I saw firsthand how Kyrillos handled complex .NET backends while integrating seamlessly with modern React.js frontends. His ability to bridge both worlds — backend logic and frontend experience — is next-level. He doesn't just build features; he engineers systems that last.",
-      name: "Fady Nader",
-      title: "Junior .NET Developer",
-      img: "/Testimonials Images/Fady.png"
+      "quote": "Kyrillos bridges the gap between backend and frontend like few can. His ability to take complex APIs and integrate them into intuitive React interfaces made our workflow seamless. He’s got a solid understanding of both logic and user experience — a rare combo.",
+      "name": "Fady Nader",
+      "title": "Junior .NET Developer",
+      "img": "/Testimonials Images/Fady.png"
     },
     {
-      quote:
-        "Even though my core focus is security, Kyrillos’s attention to secure data flows in his Next.js projects really stood out. From API protection to SSR edge cases, he understands the security layer like someone who's worked in the field. It’s rare to see devs this proactive about best practices.",
-      name: "David Medhat",
-      title: "Next.js Developer",
-      img: "/Testimonials Images/David.png"
+      "quote": "Kyrillos treats security as a first-class citizen in every React/Next.js project he touches. Whether it’s handling sensitive data or preventing SSR leaks, he’s always thinking a step ahead. His mindset shows that true frontend devs must care about backend risks too.",
+      "name": "David Medhat",
+      "title": "Next.js Developer",
+      "img": "/Testimonials Images/David.png"
     },
     {
-      quote:
-        "When we collaborated on a complex React dashboard, Kyrillos brought structure and clarity from day one. Modular components, custom hooks, optimized routing — all wrapped in a blazing-fast React.js app. He’s the kind of developer you want leading your frontend stack.",
-      name: "Tony Saad",
-      title: "React.js Developer",
-      img: "/Testimonials Images/Tony.png"
+      "quote": "Every time I review Kyrillos’s code, I come out smarter. His use of custom hooks, dynamic routing, and code splitting techniques made our dashboard fly. He balances performance with readability like a pro — one of the best frontend engineers I’ve worked with.",
+      "name": "Tony Saad",
+      "title": "React.js Developer",
+      "img": "/Testimonials Images/Tony.png"
     },
     {
-      quote:
-        "I worked with Kyrillos on our NTI graduation project. He brought great structure and vision to the design process. Always focused, creative, and cooperative — a real team player who made a big impact on the final product and truly elevated our team's overall workflow and output.",
-      name: "Yasser Alderwy",
-      title: "React.js Developer",
-      img: "/Testimonials Images/Yasser.png"
-    }
+      "quote": "Kyrillos brought clarity and leadership to our NTI project from day one. He didn’t just write code — he guided discussions, built consensus, and executed with consistency. He was the glue that held our team together, both technically and emotionally.",
+      "name": "Yasser Alderwy",
+      "title": "React.js Developer",
+      "img": "/Testimonials Images/Yasser.png"
+    }  
   ];  
 
 export const companies = [
