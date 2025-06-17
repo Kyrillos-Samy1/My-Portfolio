@@ -48,13 +48,13 @@ export default function TypingEffect() {
         />
       </h1>
 
-      <h2 className="text-white xs:ml-[-65px] sm:ml-[-23px] md:-ml-[79] lg:-ml-[115px]">
+      <h2 className="text-white xs:ml-[-62px] sm:ml-[-23px] md:-ml-[79] lg:-ml-[115px]">
         <TextGenerateEffect
           words="My name is Kyrillos Samy"
           className="xs:text-[21px] sm:text-[30px] md:text-[35px] lg:text-[40px] tracking-wider"
         />
 
-        <div className="flex justify-center items-center xs:-ml-[15px] sm:-ml-[16px] md:-ml-[30px] lg:-ml-[25px] xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl">
+        <div className="flex justify-center items-center xs:-ml-[5px] sm:-ml-[16px] md:-ml-[30px] lg:-ml-[25px] xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl">
           <h2 className="text-white">
             <TextGenerateEffect
               words="I&#39;m"
