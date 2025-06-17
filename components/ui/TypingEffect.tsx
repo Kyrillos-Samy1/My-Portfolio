@@ -48,7 +48,7 @@ export default function TypingEffect() {
         />
       </h1>
 
-      <h2 className="text-white xs:ml-[-58px] sm:ml-[-23px] md:-ml-[79] lg:-ml-[115px]">
+      <h2 className="text-white xs:ml-[-55px] sm:ml-[-23px] md:-ml-[79] lg:-ml-[115px]">
         <TextGenerateEffect
           words="My name is Kyrillos Samy"
           className="xs:text-[21px] sm:text-[30px] md:text-[35px] lg:text-[40px] tracking-wider"
