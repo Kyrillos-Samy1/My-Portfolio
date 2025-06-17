@@ -146,11 +146,15 @@ export const BentoGridItem = ({
                     "TypeScript",
                     "Redux",
                     "React Query",
+                    "Context API",
                     "Formik",
                     "HTML5",
                     "CSS3",
                     "JavaScript",
                     "Tailwind",
+                    "Styled Components",
+                    "Framer Motion",
+                    "Git",
                     "GitHub",
                     "Vercel"
                   ].map((tech, index) => (
