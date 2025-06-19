@@ -54,7 +54,7 @@ export default function TypingEffect() {
           className="xs:text-[21px] sm:text-[30px] md:text-[35px] lg:text-[40px] tracking-wider"
         />
 
-        <div className="flex justify-center items-center xs:-ml-[0px] sm:-ml-[16px] md:-ml-[30px] lg:-ml-[25px] xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl">
+        <div className="flex justify-center items-center xs:-ml-[5px] sm:-ml-[16px] md:-ml-[30px] lg:-ml-[25px] xs:text-3xl sm:text-3xl md:text-3xl lg:text-4xl">
           <h2 className="text-white">
             <TextGenerateEffect
               words="I&#39;m"
