@@ -120,7 +120,7 @@ export const BentoGridItem = ({
 
           {id === 3 && (
             <div className="flex flex-col md:flex-row items-center justify-between w-full h-full rounded-xl overflow-hidden">
-              <div className="md:w-1/2 text-center md:text-left relative md:-top-36 lg:-top-44 xl:-top-14">
+              <div className="md:w-1/2 text-center md:text-left relative md:-top-60 lg:-top-64 xl:-top-28">
                 <p className="text-sm sm:text-base opacity-75 tracking-wider">
                   I constantly try to improve
                 </p>
@@ -151,9 +151,9 @@ export const BentoGridItem = ({
                     "HTML5",
                     "CSS3",
                     "JavaScript",
-                    "Tailwind",
                     "Styled Components",
                     "Framer Motion",
+                    "Tailwind",
                     "Git",
                     "GitHub",
                     "Vercel"
@@ -166,7 +166,6 @@ export const BentoGridItem = ({
                         minWidth: "90px",
                         maxWidth: "105%",
                         overflow: "hidden",
-                        whiteSpace: "nowrap",
                         textAlign: "center",
                         display: "flex",
                         alignItems: "center",
