@@ -41,7 +41,7 @@ export default function TypingEffect() {
 
   return (
     <div className="flex flex-col justify-center items-center tracking-wider">
-      <h1 className="text-white xs:ml-[-14px] sm:ml-[53px] md:-ml-[20px] lg:ml-[-37px]">
+      <h1 className="text-white xs:ml-[-14px] sm:ml-[53px] md:-ml-[15px] lg:ml-[-37px]">
         <TextGenerateEffect
           words="Explore My Portfolio!"
           className=" xs:text-[30px] sm:text-[43px] md:text-[43px] lg:text-[55px] tracking-wider leading-10"
