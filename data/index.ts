@@ -66,7 +66,7 @@ export const testimonials = [
   }
 ];
 
-  export const companies = [
+export const companies = [
   {
     id: 1,
     name: "cloudinary",
@@ -101,35 +101,33 @@ export const testimonials = [
 
 export const workExperience = [
   {
-  id: 1,
-  title: "Node.js Backend Development – In Progress",
-  desc: "Currently learning Node.js with a focus on building backend services using Express.js. Exploring RESTful API development, middleware, and integration with MongoDB as part of a full MERN stack workflow.",
-  className: "md:col-span-2",
-  thumbnail: "/exp4.svg",
- },
- {
-  id: 2,
-  title: "Freelance Web Developer – Self Employed",
-  desc: "Delivered front-end solutions using React stack for freelance clients, handling Git, portfolios, and end-to-end client communication.",
-  className: "md:col-span-2",
-  thumbnail: "/exp3.svg",
-},
- {
-   id: 3,
-   title: "React.js Developer Track – Self-Paced Study",
-   desc: "Completed hands-on React & TypeScript training, building responsive UIs with modern libraries and Git version control.",
-   className: "md:col-span-2",
-   thumbnail: "/exp2.svg",
- },
+    id: 1,
+    title: "Node.js Backend Dev – MERN Stack Training",
+    desc: "Learning Node.js & Express.js to build RESTful APIs and backend logic. Integrating MongoDB and React in a MERN stack setup.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 2,
+    title: "Freelance Frontend Dev – Remote Projects",
+    desc: "Delivered responsive React.js UIs for freelance clients. Managed Git, deployed to Vercel, and communicated with clients directly.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 3,
+    title: "React Developer Track – Self-Paced Study",
+    desc: "Completed practical React & TypeScript training. Built reusable components and responsive layouts using modern libraries.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
   {
     id: 4,
-    title: "Web Designer Intern",
-    desc: "Built responsive front-end pages using HTML5, CSS3, Bootstrap, and JavaScript in a hands-on training project.",
+    title: "Web Design Intern – NTI Training Program",
+    desc: "Built responsive layouts using HTML5, CSS3, Bootstrap, and JavaScript as part of a hands-on internship at NTI in Cairo.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  
-  
 ];
 
 export const socialMedia = [
@@ -156,7 +154,5 @@ export const socialMedia = [
     img: "/facebook.png",
     link: "https://www.facebook.com/kero.samy.104",
     title: "FaceBook.com"
-  },
-  
-    
+  },  
 ];
