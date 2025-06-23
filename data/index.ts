@@ -80,9 +80,9 @@ export const testimonials = [
     "title": "React.js Developer",
     "img": "/Testimonials Images/Yasser.png"
   }
-  ];  
+];
 
-export const companies = [
+  export const companies = [
   {
     id: 1,
     name: "cloudinary",
@@ -117,33 +117,35 @@ export const companies = [
 
 export const workExperience = [
   {
-    id: 1,
+  id: 1,
+  title: "Node.js Backend Development – In Progress",
+  desc: "Currently learning Node.js with a focus on building backend services using Express.js. Exploring RESTful API development, middleware, and integration with MongoDB as part of a full MERN stack workflow.",
+  className: "md:col-span-2",
+  thumbnail: "/exp4.svg",
+ },
+ {
+  id: 2,
+  title: "Freelance Web Developer – Self Employed",
+  desc: "Delivered front-end solutions using React stack for freelance clients, handling Git, portfolios, and end-to-end client communication.",
+  className: "md:col-span-2",
+  thumbnail: "/exp3.svg",
+},
+ {
+   id: 3,
+   title: "React.js Developer Track – Self-Paced Study",
+   desc: "Completed hands-on React & TypeScript training, building responsive UIs with modern libraries and Git version control.",
+   className: "md:col-span-2",
+   thumbnail: "/exp2.svg",
+ },
+  {
+    id: 4,
     title: "Web Designer Intern",
     desc: "Built responsive front-end pages using HTML5, CSS3, Bootstrap, and JavaScript in a hands-on training project.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "React.js Developer Track – Self-Paced Study",
-    desc: "Completed hands-on React & TypeScript training, building responsive UIs with modern libraries and Git version control.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance Web Developer – Self Employed",
-    desc: "Delivered front-end solutions using React stack for freelance clients, handling Git, portfolios, and end-to-end client communication.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Graduation Project Team Lead",
-    desc: "Led a team of 4 to build a full-stack restaurant table booking system using PHP and React.js, delivering a fully functional MVP with real-world workflows.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  
+  
 ];
 
 export const socialMedia = [
