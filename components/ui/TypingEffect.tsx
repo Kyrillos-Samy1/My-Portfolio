@@ -7,6 +7,8 @@ import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 const words = [
   "a Junior Level",
   "a React.js Developer",
+  "a Next.js Enthusiast",
+  "a Node.js Learning",
   "a Problem Solver",
   "a Success Chaser"
 ];
