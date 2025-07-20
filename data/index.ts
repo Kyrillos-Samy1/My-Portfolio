@@ -124,7 +124,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Web Design Intern – NTI Training Program",
-    desc: "Built responsive layouts using HTML5, CSS3, Bootstrap, and JavaScript as part of a hands-on internship at NTI in Cairo.",
+    desc: "Built responsive layouts using HTML5, CSS3, Bootstrap, and JavaScript as part of a hands-on internship at NTI.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
