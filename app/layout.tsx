@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kyrillos's Portfolio",
+  title: "Kyrillos Portfolio",
   description:
-    "Kyrillos Samy's Portfolio – Showcasing my React.js & Next.js projects, skills, and journey!",
+    "Kyrillos Samy Portfolio – Showcasing my React.js & Next.js projects, skills, and journey!",
 };
 
 export default function RootLayout({
