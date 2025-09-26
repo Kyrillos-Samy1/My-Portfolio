@@ -15,7 +15,7 @@ function PortfolioComponent() {
   const handleDownload = () => {
     if (typeof window !== "undefined") {
       window.open(
-        "https://drive.google.com/file/d/1JoMNN9-9s0r9yn5zKjZET81Nq2jRYEG-/view?usp=sharing",
+        "https://drive.google.com/file/d/1btyfqs0oo8BOfdyQ3RdplOVcNT_Iyll9/view?usp=drive_link",
         "_blank"
       );
     }
