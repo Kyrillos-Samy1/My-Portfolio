@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 
 const words = [
-  "a Junior Level",
   "a React.js Developer",
   "a Next.js Enthusiast",
   "a Node.js Learning",
