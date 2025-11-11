@@ -38,7 +38,7 @@
 ## Project Structure
 
 ```
- My-Portfolio
+My-Portfolio
 ├── public                     
 │   └── images/, favicon, etc.
 ├── app/                        # Next.js App Router pages & routes
