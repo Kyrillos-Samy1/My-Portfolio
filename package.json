@@ -12,6 +12,7 @@
     "@react-three/drei": "^10.0.5",
     "@react-three/fiber": "^9.0.0-alpha.8",
     "@tabler/icons-react": "^3.31.0",
+    "caniuse-lite": "^1.0.30001754",
     "clsx": "^2.1.1",
     "framer-motion": "^12.0.0-alpha.2",
     "lottie-react": "^2.4.1",
