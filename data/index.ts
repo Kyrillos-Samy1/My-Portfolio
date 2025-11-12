@@ -68,14 +68,14 @@ export const testimonials = [
       "Working with Kyrillos felt like partnering with a frontend architect. He doesn’t just write code — he builds systems. From reusable components to performance tuning, every line he commits has purpose. Our UI became faster, cleaner, and easier to maintain because of him. Respectfully, one of the best I've seen.",
     name: "Andrew Moheb",
     title: "Junior React.js Developer",
-    img: "/Testimonials Images/Andrew.png"
+    img: "/Testimonials Images/Andrew.jpg"
   },
   {
     quote:
       "Kyrillos bridges the gap between backend and frontend like few can. His ability to take complex APIs and integrate them into intuitive React interfaces made our workflow seamless. He’s got a solid understanding of both logic and user experience — a rare combo. Respectfully, he's a game changer.",
     name: "Fady Nader",
     title: "Junior .NET Developer",
-    img: "/Testimonials Images/Fady.png"
+    img: "/Testimonials Images/Fady.jpj"
   },
   {
     quote:
