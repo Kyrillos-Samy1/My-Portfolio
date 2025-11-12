@@ -87,9 +87,9 @@ export const testimonials = [
   {
     quote:
       "Every time I review Kyrillos’s code, I come out smarter. His use of custom hooks, dynamic routing, and code splitting techniques made our dashboard fly. He balances performance with readability like a pro — one of the best frontend engineers I’ve worked with. Respectfully, a true craftsman.",
-    name: "Tony Saad",
+    name: "Abanoub Samy",
     title: "React.js Developer",
-    img: "/Testimonials Images/Tony.png"
+    img: "/Testimonials Images/Abanoub.jpg"
   },
   {
     quote:
