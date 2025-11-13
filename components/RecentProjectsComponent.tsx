@@ -11,10 +11,10 @@ export default function RecentProjectsComponent() {
       <div className="grid xl:grid-cols-2 lg:grid-col-1 h-full ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="h-full xs:h-[33.5rem] sm:h-[35rem] md:h-[40rem] lg:h-[42rem] 2xl:h-[42rem] flex items-center justify-center xs:w-[100vw] lg:w-[50vw] xl:w-[45vw] 2xl:w-[45vw]"
+            className="h-full xs:h-[35.5rem] md:h-[40rem] lg:h-[42rem] xl:h-[43rem] 2xl:h-[42rem] flex items-center justify-center xs:w-[100vw] lg:w-[50vw] xl:w-[45vw] 2xl:w-[45vw]"
             key={id}>
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center xs:w-[300px] sm:w-[475px] md:w-[570px] lg:w-[600px] xl:w-[460px] 2xl:w-[580px]  overflow-hidden xs:h-[40vh] md:h-[35vh] lg:h-[50vh] mb-10">
+              <div className="relative flex items-center justify-center xs:w-[300px] sm:w-[475px] md:w-[570px] lg:w-[600px] xl:w-[500px] 2xl:w-[680px]  overflow-hidden xs:h-[40vh] md:h-[35vh] lg:h-[50vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <Image src="/bg.png" alt="bg-img" width={400} height={300} />
                 </div>
