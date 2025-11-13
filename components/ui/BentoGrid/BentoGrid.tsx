@@ -119,8 +119,8 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex flex-col md:flex-row items-center justify-between w-full h-full rounded-xl overflow-hidden">
-              <div className="md:w-1/2 text-center md:text-left relative md:-top-60 lg:-top-64 xl:-top-28">
+            <div className="flex flex-col md:flex-row items-center justify-between w-full xxs:h-[350px] sm:h-full rounded-xl overflow-hidden">
+              <div className="md:w-1/2 text-center md:text-left relative xs:mt-0 md:-top-[42%] xl:-top-[40%]">
                 <p className="text-sm sm:text-base opacity-75 tracking-wider">
                   I constantly try to improve
                 </p>
@@ -134,35 +134,64 @@ export const BentoGridItem = ({
                   initial={{ y: "107%" }}
                   animate={{ y: "-100%" }}
                   transition={{
-                    duration: 40,
+                    duration: 50,
                     repeat: Infinity,
                     repeatType: "loop",
                     ease: "linear"
                   }}
+                  whileHover={{
+                    y: "0%",
+                    transition: {
+                      duration: 5000
+                    }
+                  }}
                   className="grid xs:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 xs:gap-3">
                   {[
-                    "React.js",
-                    "Next.js",
-                    "TypeScript",
-                    "Redux",
-                    "React Query",
-                    "Context API",
-                    "Formik",
+                    // Frontend
                     "HTML5",
                     "CSS3",
                     "JavaScript",
+                    "TypeScript",
+                    "React.js",
+                    "Next.js",
+                    "Redux",
+                    "Context API",
+                    "React Query",
+                    "Formik",
                     "Styled Components",
-                    "Framer Motion",
                     "Tailwind",
+                    "Framer Motion",
+
+                    // Backend
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "Mongoose",
+                    "JWT",
+
+                    // APIs & Tools
+                    "RESTful API",
+                    "Axios",
+                    "Postman",
+                    "Cloudinary",
+                    "Stripe",
+
+                    // Deployment & Version Control
                     "Git",
                     "GitHub",
-                    "Vercel"
+                    "Vercel",
+
+                    // Security
+                    "Helmet",
+                    "CORS",
+                    "XSS Clean",
+                    "Rate Limiting"
                   ].map((tech, index) => (
                     <span
                       key={index}
                       className="py-2 px-5 rounded-lg text-center bg-[#10132E] text-white"
                       style={{
-                        fontSize: "clamp(10px, 1.2vw, 14px)",
+                        fontSize: "clamp(11px, 1.2vw, 15px)",
                         minWidth: "90px",
                         maxWidth: "105%",
                         overflow: "hidden",
