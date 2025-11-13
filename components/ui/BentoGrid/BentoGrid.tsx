@@ -134,7 +134,7 @@ export const BentoGridItem = ({
                   initial={{ y: "107%" }}
                   animate={{ y: "-100%" }}
                   transition={{
-                    duration: 50,
+                    duration: 40,
                     repeat: Infinity,
                     repeatType: "loop",
                     ease: "linear"
