@@ -142,7 +142,7 @@ export const BentoGridItem = ({
                   whileHover={{
                     y: "0%",
                     transition: {
-                      duration: 5000
+                      duration: 5000000
                     }
                   }}
                   className="grid xs:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 xs:gap-3">
