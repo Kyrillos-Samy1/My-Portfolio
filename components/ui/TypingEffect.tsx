@@ -69,7 +69,7 @@ export default function TypingEffect() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="font-semibold leading-10 w-full xs:ml-[8px] xs:mt-6 sm:mt-5 inline-block text-white-100 tracking-wider xs:text-[18px] sm:text-[27px] md:text-[31.5px] lg:text-[37px]"
+            className="font-semibold leading-10 w-full xs:ml-[8px] xs:mt-5 sm:mt-4 inline-block text-white-100 tracking-wider xs:text-[18px] sm:text-[27px] md:text-[31.5px] lg:text-[37px]"
             style={{ minWidth: `${maxWordLength + 1}ch` }}>
             {word}
             <motion.span
