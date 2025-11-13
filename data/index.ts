@@ -75,7 +75,7 @@ export const testimonials = [
       "Kyrillos bridges the gap between backend and frontend like few can. His ability to take complex APIs and integrate them into intuitive React interfaces made our workflow seamless. He’s got a solid understanding of both logic and user experience — a rare combo. Respectfully, he's a game changer.",
     name: "Fady Nader",
     title: "Junior .NET Developer",
-    img: "/Testimonials Images/Fady.jpj"
+    img: "/Testimonials Images/Fady.jpg"
   },
   {
     quote:
