@@ -105,7 +105,7 @@ const gridItems: GridItemProps[] = [
   },
   {
     id: 6,
-    title: "Currently exploring backend using Node.js",
+    title: "MERN stack developer building real apps!",
     description: "The Inside Scoop",
     className: "lg:col-span-1 md:col-span-1 md:row-span-1 m-2 tracking-wider",
     imgClassName:
