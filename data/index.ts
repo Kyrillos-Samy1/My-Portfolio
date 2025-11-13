@@ -93,7 +93,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Kyrillos brought clarity and leadership to our NTI project from day one. He didn’t just write code — he guided discussions, built consensus, and executed with consistency. He was the glue that held our team together, both technically and emotionally. Respectfully, he's a natural leader.",
+      "Kyrillos brought clarity and leadership to our NTI project from day one. He didn’t just write code — he guided discussions, built consensus, and executed with consistency. He was the glue that held our team together, both technically and emotionally. Respectfully, I can say he is a natural leader.",
     name: "Yasser Alderwy",
     title: "React.js Developer",
     img: "/Testimonials Images/Yasser.png"
